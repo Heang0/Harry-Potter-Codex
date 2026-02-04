@@ -1,0 +1,6 @@
+<!-- This is a placeholder. In a real implementation, you would generate a proper PNG file -->
+<!-- For now, we'll create a simple SVG that can be used as an apple touch icon -->
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <rect width="180" height="180" fill="#0b0d12"/>
+  <text x="90" y="110" text-anchor="middle" font-family="Cinzel, serif" font-size="48" fill="#c4a867">HC</text>
+</svg>

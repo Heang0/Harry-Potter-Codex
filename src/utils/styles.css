@@ -1,0 +1,90 @@
+/* Professional CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base typography */
+body {
+  font-family: "Cormorant Garamond", "Garamond", "Georgia", serif;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid #c4a867;
+  outline-offset: 2px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(196, 168, 103, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(196, 168, 103, 0.5);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Button hover effects */
+.btn-primary,
+.btn-secondary,
+.btn-outline {
+  transition: all 0.3s ease;
+}
+
+/* Card hover effects */
+.card,
+.card-glow {
+  transition: all 0.4s ease;
+}
+
+/* Animation utilities */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+.animate-pulse-gold {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
