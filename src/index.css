@@ -202,7 +202,7 @@
   background: var(--panel-strong);
   color: var(--text);
   padding: 0.65rem 1rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
   outline: none;
 }
 
@@ -236,6 +236,16 @@
 :root {
   color-scheme: dark;
   font-family: "Cormorant Garamond", "Garamond", "Georgia", serif;
+}
+
+html {
+  font-size: 17px;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 16.5px;
+  }
 }
 
 :root[data-theme='dark'] {
