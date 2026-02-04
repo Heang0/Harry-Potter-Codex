@@ -156,7 +156,7 @@ export const courses = [
     id: 'ancient-magic',
     name: 'Ancient Magic Theory',
     description: 'Lost magic traditions and protective enchantments.',
-    professor: 'unknown',
+    professor: 'ancient-magic-professor',
     learn: ['Ritual magic', 'Protective seals', 'Mythic spells'],
     yearLevel: '7',
     type: 'Elective',
